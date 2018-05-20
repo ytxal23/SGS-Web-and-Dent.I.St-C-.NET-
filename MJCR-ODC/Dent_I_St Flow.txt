@@ -1,0 +1,21 @@
+Maintenance
+Role Registration>Add Roles>Save/Update
+output: Role is needed for assigning the specified modules to be shown to the users
+Module Permission>Add Permission>Add/Edit>Choose Role that is needed to be given permission>Next>Check the modules that will be allowed to the specified role>Finalize>
+output: the modules that were checked based on the chosen role. These allowed modules will be displayed on the user's dashboard based on their assigned role
+User Accounts>Add New Employee>Type details, choose ID, specified role, user info entries for log>
+output: the employees with specified role of Dentist is one of the inputs for future processes
+Patient Records>Add New Employee>Type details, required histories for medical records>
+output: the patient records will be the reference for every transactions from appointment requests to dental service processing and billing
+Treatments>Add treatments>Type details, amount price, select color identifier for toothchart transaction>
+output: specified colors in each treatment will be needed for future designators on toothchart transaction.
+Insurance Company(HMO)>add HMO companies that are referred by the patients for insurance health>
+output: this will be a reference for billing transaction and summary of payments of patients after every treatment performed by the dentist on the patient
+Schedule Maintenance>Add fixed schedules per dentist registered in the system>to set schedules; set schedule>click specified time column from the 7-day table for schedule>Finalize/Edit/Cancel>
+output: the chosen hours per day will be set automatically as a weekly schedule based on the dentist's time allotment
+TRANSACTIONS
+Appointment> there will be a schedule at a chosen date in the month calendar>select patient requesting for appointment and the requested dentist>select one specific date for appointment reservation, the availability of the dentist will be reflected on the 7-day table schedule> but if some hours are already highlighted or disabled ones these schedules will not be available as it is already been taken by the earlier patient who requested for that appointment, the currently requesting patient will be able to take the other available slots of the dentist's time.
+
+Treatment (TOOTHCHART)> During the time of the schedule for services>the details and the requested/reserved dentist-on-duty of the specified patient at that current date will be processed>the dentist will diagnose what part of the teeth to be treated based on the requested service>As the dentist selected the tooth with the problem> there will be a panel that will display the layers of the specified tooth, as the dentist selects the treatment to be performed, the areas he/she have clicked will be highlighted with the color identifier of the treatment>Finalizing the part of the tooth to be treated>the dentist applies it> as the treatment had been applied, the performed operation will be displayed on the completed treatments table> The next process will be Billing
+
+Billing> based on the current patient on the schedule and the dentist-on-duty> the details from the Treatment transaction of that current date will appear together with the amount to be paid by the patient>Finalizing the method of payment>The dentist will print a copy of the patient's payment and give it to the patient for payment processing
